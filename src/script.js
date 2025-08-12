@@ -18,7 +18,6 @@ gsap.from(splitGalaxy.chars, {
         each: 0.05
     },
     scrollTrigger: {
-        markers: true,
         trigger: ".galaxy",
         start: "top 80%",
         toggleActions: "restart none restart reset",
@@ -37,7 +36,6 @@ gsap.from(splitMail.chars, {
         each: 0.05
     },
     scrollTrigger: {
-        markers: true,
         trigger: ".Mail",
         start: "top 90%",
         toggleActions: "restart none restart reset",
@@ -52,7 +50,6 @@ gsap.from(".description", {
         each: 0.05
     },
     scrollTrigger: {
-        markers: true,
         trigger: ".description",
         start: "top 90%",
         scrub: true,
